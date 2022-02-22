@@ -162,6 +162,7 @@ body {background-color: black;}
         align-items:flex-start;}
 
 * {overflow: hidden;
+    z-index:-1;
     }
 
         #buttonright {position: fixed;
