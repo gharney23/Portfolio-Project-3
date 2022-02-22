@@ -111,7 +111,7 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     animation-timing-function: linear;
-}
+    z-index:-1;}
 
 .links
     {position: absolute;
@@ -133,7 +133,7 @@ a {color:yellow;
 
 .header
     {position: absolute;
-        top: 15%;
+        top: 13%;
         left: 10%;
     display: flex;
     flex-direction: row;
@@ -155,25 +155,26 @@ body {background-color: black;}
     font-style: normal;
     color: rgb(201, 192, 255);
     position: absolute;
-        top: 9%;
+        top: 7%;
         left: 10%;
         display: flex;
         flex-direction: row;
         align-items:flex-start;}
 
-        * {overflow: hidden;
-            }
+* {overflow: hidden;
+    }
 
-        #buttonright {position: absolute;
+        #buttonright {position: fixed;
             height: 80px;
             width: 80px;
-            top: 40%;
+            top: 44.5%;
             left: 89%;
-            display: flex;}
-        #buttonleft {position: absolute;
+            display: flex;
+        z-index:1;}
+        #buttonleft {position: fixed;
             height: 80px;
             width: 80px;
-            top: 40%;
+            top: 44.5%;
             left: 1%;
             display: flex;
-        z-index:1}
+        z-index:1;}
