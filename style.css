@@ -161,9 +161,6 @@ body {background-color: black;}
         flex-direction: row;
         align-items:flex-start;}
 
-* {overflow: hidden;
-    z-index:-1;
-    }
 
         #buttonright {position: fixed;
             height: 80px;
@@ -179,3 +176,6 @@ body {background-color: black;}
             left: 1%;
             display: flex;
         z-index:1;}
+
+        * {overflow: hidden;
+            z-index:-1;}
